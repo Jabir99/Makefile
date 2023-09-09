@@ -39,10 +39,10 @@ NVCC = nvcc
 #CUDA_ARCH = -arch=sm_70
 
 # Turing hardware
-CUDA_ARCH = -arch=sm_75
+#CUDA_ARCH = -arch=sm_75
 
 # Ampere hardware
-#CUDA_ARCH = -arch=sm_80
+CUDA_ARCH = -arch=sm_80
 #CUDA_ARCH = -arch=sm_86
 
 # this setting should match LAMMPS Makefile
