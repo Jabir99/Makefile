@@ -23,7 +23,7 @@ ARCHIVE =	ar
 ARFLAGS =	-rc
 SHLIBFLAGS =	-shared
 KOKKOS_DEVICES = Cuda
-KOKKOS_ARCH = AMPERE80
+KOKKOS_ARCH = TURING75
 
 # ---------------------------------------------------------------------
 # LAMMPS-specific settings, all OPTIONAL
